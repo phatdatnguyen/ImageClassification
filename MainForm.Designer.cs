@@ -66,9 +66,9 @@
             this.addClassButton = new System.Windows.Forms.Button();
             this.modelPanel = new System.Windows.Forms.Panel();
             this.trainingPanel = new System.Windows.Forms.Panel();
-            this.trainButton = new System.Windows.Forms.Button();
             this.trainingLabel = new System.Windows.Forms.Label();
             this.trainPanel = new System.Windows.Forms.Panel();
+            this.trainButton = new System.Windows.Forms.Button();
             this.predictionPanel = new System.Windows.Forms.Panel();
             this.predictionGroupBox = new System.Windows.Forms.GroupBox();
             this.predictButton = new System.Windows.Forms.Button();
@@ -113,7 +113,7 @@
             this.mainTaskPanel.Location = new System.Drawing.Point(0, 24);
             this.mainTaskPanel.Margin = new System.Windows.Forms.Padding(4);
             this.mainTaskPanel.Name = "mainTaskPanel";
-            this.mainTaskPanel.Size = new System.Drawing.Size(784, 515);
+            this.mainTaskPanel.Size = new System.Drawing.Size(824, 515);
             this.mainTaskPanel.TabIndex = 3;
             // 
             // mainTableLayoutPanel
@@ -143,7 +143,7 @@
             this.mainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.mainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.mainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 250F));
-            this.mainTableLayoutPanel.Size = new System.Drawing.Size(767, 1078);
+            this.mainTableLayoutPanel.Size = new System.Drawing.Size(807, 1078);
             this.mainTableLayoutPanel.TabIndex = 0;
             // 
             // chooseModelPanel
@@ -243,7 +243,7 @@
             this.processingStepsPanel.Location = new System.Drawing.Point(180, 260);
             this.processingStepsPanel.Margin = new System.Windows.Forms.Padding(4);
             this.processingStepsPanel.Name = "processingStepsPanel";
-            this.processingStepsPanel.Size = new System.Drawing.Size(580, 242);
+            this.processingStepsPanel.Size = new System.Drawing.Size(620, 242);
             this.processingStepsPanel.TabIndex = 3;
             // 
             // previewGroupBox
@@ -254,7 +254,7 @@
             this.previewGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.previewGroupBox.Location = new System.Drawing.Point(312, 0);
             this.previewGroupBox.Name = "previewGroupBox";
-            this.previewGroupBox.Size = new System.Drawing.Size(268, 242);
+            this.previewGroupBox.Size = new System.Drawing.Size(308, 242);
             this.previewGroupBox.TabIndex = 1;
             this.previewGroupBox.TabStop = false;
             this.previewGroupBox.Text = "Preview";
@@ -286,7 +286,7 @@
             this.processingPictureBox.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.processingPictureBox.Location = new System.Drawing.Point(3, 46);
             this.processingPictureBox.Name = "processingPictureBox";
-            this.processingPictureBox.Size = new System.Drawing.Size(262, 193);
+            this.processingPictureBox.Size = new System.Drawing.Size(302, 193);
             this.processingPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.processingPictureBox.TabIndex = 9;
             this.processingPictureBox.TabStop = false;
@@ -385,7 +385,7 @@
             this.dataPanel.Location = new System.Drawing.Point(179, 5);
             this.dataPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataPanel.Name = "dataPanel";
-            this.dataPanel.Size = new System.Drawing.Size(582, 246);
+            this.dataPanel.Size = new System.Drawing.Size(622, 246);
             this.dataPanel.TabIndex = 1;
             // 
             // imagesGroupBox
@@ -397,7 +397,7 @@
             this.imagesGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.imagesGroupBox.Location = new System.Drawing.Point(140, 0);
             this.imagesGroupBox.Name = "imagesGroupBox";
-            this.imagesGroupBox.Size = new System.Drawing.Size(442, 246);
+            this.imagesGroupBox.Size = new System.Drawing.Size(482, 246);
             this.imagesGroupBox.TabIndex = 1;
             this.imagesGroupBox.TabStop = false;
             this.imagesGroupBox.Text = "Images";
@@ -428,7 +428,7 @@
             this.trainingImagePictureBox.Dock = System.Windows.Forms.DockStyle.Right;
             this.trainingImagePictureBox.Location = new System.Drawing.Point(179, 16);
             this.trainingImagePictureBox.Name = "trainingImagePictureBox";
-            this.trainingImagePictureBox.Size = new System.Drawing.Size(260, 227);
+            this.trainingImagePictureBox.Size = new System.Drawing.Size(300, 227);
             this.trainingImagePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.trainingImagePictureBox.TabIndex = 8;
             this.trainingImagePictureBox.TabStop = false;
@@ -520,7 +520,7 @@
             this.modelPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.modelPanel.Location = new System.Drawing.Point(179, 512);
             this.modelPanel.Name = "modelPanel";
-            this.modelPanel.Size = new System.Drawing.Size(582, 244);
+            this.modelPanel.Size = new System.Drawing.Size(622, 244);
             this.modelPanel.TabIndex = 5;
             this.modelPanel.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.trainingPanel_ControlAdded);
             // 
@@ -532,18 +532,6 @@
             this.trainingPanel.Name = "trainingPanel";
             this.trainingPanel.Size = new System.Drawing.Size(164, 54);
             this.trainingPanel.TabIndex = 6;
-            // 
-            // trainButton
-            // 
-            this.trainButton.Enabled = false;
-            this.trainButton.Location = new System.Drawing.Point(242, 14);
-            this.trainButton.Margin = new System.Windows.Forms.Padding(4);
-            this.trainButton.Name = "trainButton";
-            this.trainButton.Size = new System.Drawing.Size(120, 23);
-            this.trainButton.TabIndex = 1;
-            this.trainButton.Text = "Train model";
-            this.trainButton.UseVisualStyleBackColor = true;
-            this.trainButton.Click += new System.EventHandler(this.trainButton_Click);
             // 
             // trainingLabel
             // 
@@ -562,8 +550,20 @@
             this.trainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.trainPanel.Location = new System.Drawing.Point(179, 765);
             this.trainPanel.Name = "trainPanel";
-            this.trainPanel.Size = new System.Drawing.Size(582, 54);
+            this.trainPanel.Size = new System.Drawing.Size(622, 54);
             this.trainPanel.TabIndex = 7;
+            // 
+            // trainButton
+            // 
+            this.trainButton.Enabled = false;
+            this.trainButton.Location = new System.Drawing.Point(252, 14);
+            this.trainButton.Margin = new System.Windows.Forms.Padding(4);
+            this.trainButton.Name = "trainButton";
+            this.trainButton.Size = new System.Drawing.Size(120, 23);
+            this.trainButton.TabIndex = 1;
+            this.trainButton.Text = "Train model";
+            this.trainButton.UseVisualStyleBackColor = true;
+            this.trainButton.Click += new System.EventHandler(this.trainButton_Click);
             // 
             // predictionPanel
             // 
@@ -571,7 +571,7 @@
             this.predictionPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.predictionPanel.Location = new System.Drawing.Point(179, 828);
             this.predictionPanel.Name = "predictionPanel";
-            this.predictionPanel.Size = new System.Drawing.Size(582, 244);
+            this.predictionPanel.Size = new System.Drawing.Size(622, 244);
             this.predictionPanel.TabIndex = 9;
             // 
             // predictionGroupBox
@@ -584,7 +584,7 @@
             this.predictionGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.predictionGroupBox.Location = new System.Drawing.Point(0, 0);
             this.predictionGroupBox.Name = "predictionGroupBox";
-            this.predictionGroupBox.Size = new System.Drawing.Size(582, 244);
+            this.predictionGroupBox.Size = new System.Drawing.Size(622, 244);
             this.predictionGroupBox.TabIndex = 0;
             this.predictionGroupBox.TabStop = false;
             this.predictionGroupBox.Text = "Prediction";
@@ -611,7 +611,7 @@
             this.predictionListView.Location = new System.Drawing.Point(6, 46);
             this.predictionListView.Margin = new System.Windows.Forms.Padding(2);
             this.predictionListView.Name = "predictionListView";
-            this.predictionListView.Size = new System.Drawing.Size(302, 196);
+            this.predictionListView.Size = new System.Drawing.Size(308, 196);
             this.predictionListView.TabIndex = 3;
             this.predictionListView.UseCompatibleStateImageBehavior = false;
             this.predictionListView.View = System.Windows.Forms.View.Details;
@@ -631,9 +631,9 @@
             // predictionPictureBox
             // 
             this.predictionPictureBox.Dock = System.Windows.Forms.DockStyle.Right;
-            this.predictionPictureBox.Location = new System.Drawing.Point(313, 16);
+            this.predictionPictureBox.Location = new System.Drawing.Point(319, 16);
             this.predictionPictureBox.Name = "predictionPictureBox";
-            this.predictionPictureBox.Size = new System.Drawing.Size(266, 225);
+            this.predictionPictureBox.Size = new System.Drawing.Size(300, 225);
             this.predictionPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.predictionPictureBox.TabIndex = 8;
             this.predictionPictureBox.TabStop = false;
@@ -669,7 +669,7 @@
             this.statusLabel});
             this.statusStrip.Location = new System.Drawing.Point(0, 539);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(784, 22);
+            this.statusStrip.Size = new System.Drawing.Size(824, 22);
             this.statusStrip.TabIndex = 0;
             this.statusStrip.Text = "statusStrip1";
             // 
@@ -685,7 +685,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(784, 24);
+            this.menuStrip.Size = new System.Drawing.Size(824, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "Menu";
             // 
@@ -693,7 +693,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(824, 561);
             this.Controls.Add(this.mainTaskPanel);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
